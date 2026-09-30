@@ -1,46 +1,44 @@
 # Tic-Tac-Toe - VOSC Activity 1
 
-A simple two-player Tic-Tac-Toe game developed as part of VOSC Activity 1 using HTML, CSS and JavaScript.
+A simple two-player Tic-Tac-Toe game made using HTML, CSS and JavaScript as part of VOSC Activity 1.
 
-## About the Project
+## About
 
-Tic-Tac-Toe is a two-player game played on a 3x3 grid. Players take turns placing X and O on the board. The player who gets three matching symbols in a row, column or diagonal wins the game.
+Tic-Tac-Toe is a two-player game played on a 3x3 grid. Players take turns placing X and O. The first player to get three of the same symbols in a row, column or diagonal wins.
 
-This project implements the complete game in the browser using only basic web technologies without any external libraries or frameworks.
+This project was built using basic web technologies without using any external libraries or frameworks.
 
 ## Features
 
 - Two-player gameplay
-- Interactive 3x3 game board
-- Automatic win detection
-- Draw detection
+- 3x3 interactive game board
+- Win and draw detection
 - Score tracking
-- Highlighting of the winning cells
-- New Game option
-- Reset Score option
-- Responsive design for different screen sizes
-- No external libraries or frameworks
+- Winning cells are highlighted
+- New Game button
+- Reset Score button
+- Responsive design
 
 ## Technologies Used
 
-- HTML5 - Used to create the structure of the game
-- CSS3 - Used for styling, layout, animations and responsive design
-- JavaScript - Used to implement the game logic and user interactions
+- HTML5
+- CSS3
+- JavaScript
+
+HTML is used for the structure, CSS for the design and JavaScript for the game logic.
 
 ## How to Play
 
 1. Player X starts the game.
-2. Click on any empty cell to place X.
+2. Click an empty cell to place X.
 3. Player O gets the next turn.
-4. Players continue taking turns.
-5. The first player to get three matching symbols in a row, column or diagonal wins.
-6. If all nine cells are filled and nobody wins, the game ends in a draw.
-7. Click `New Game` to start another round.
-8. Click `Reset Score` to clear the scores and start again.
+4. Continue taking turns until a player wins or the game ends in a draw.
+5. Click `New Game` to start another round.
+6. Click `Reset Score` to clear the scores.
 
 ## Game Logic
 
-The board contains nine cells represented by indexes from 0 to 8.
+The board has 9 cells:
 
 ```text
 0 | 1 | 2
